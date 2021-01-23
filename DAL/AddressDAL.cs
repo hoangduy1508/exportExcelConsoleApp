@@ -32,7 +32,7 @@ namespace exportExcelConsoleApp.DAL
                         {
                             AddressId = Convert.ToInt32(rdr[0]),
                             AddressLine1 = rdr[1].ToString(),
-                            City = rdr[2].ToString()
+                            City = rdr[3].ToString()
                         });
                     }
                 }
